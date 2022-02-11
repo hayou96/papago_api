@@ -4,8 +4,7 @@ import json
 
 app = Flask(__name__)
 
-client_id = "aQK3tF1F1MPHzBpH1Cnk"
-client_secret = "yqB1uy0okM"
+# API key
 
 #papago 메인 화면
 @app.route("/") # localhost:5000/라고 입력했을 때 렌더링 되는 화면
